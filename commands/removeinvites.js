@@ -8,7 +8,7 @@ const { mainprefix, defaultjoinmessage, defaultleavemessage, color } = yaml.load
 
 
 module.exports = {
-  name: "remove",
+  name: "removeinvites",
   description: "remove invites",
   run: async (client, message, args) => {
     
