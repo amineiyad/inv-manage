@@ -10,8 +10,7 @@ const { join } = require("path");
 const { readdirSync } = require("fs");
 client.commands = new Discord.Collection();
 client.login(token);
-const xpfile = require("./xp.json");
-const ms = require("ms");
+ const ms = require("ms");
 
 client.on("ready", () => {
   client.user.setActivity("Testing Stuffs", { type: "PLAYING" });
