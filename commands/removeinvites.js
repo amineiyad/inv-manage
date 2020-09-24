@@ -35,5 +35,4 @@ module.exports = {
     db.subtract(`bouns_${message.guild.id}_${user.id}`, amount)
     message.channel.send(suc) 
    }
-  }
 }
