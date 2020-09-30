@@ -238,7 +238,7 @@ module.exports = {
         .setTitle(`**LeaveChannelMessage Updated**`)
            .setColor(`${embed || color}`)
         .setDescription(
-          `** Old Value **\n<#${leavechanneldata}>\n** New Value **\n<#${leavechanneldata.id}>`
+          `** Old Value **\n<#${leavechanneldata}>\n** New Value **\n<#${leavechannel}>`
         )
         .setFooter(message.guild.name, client.user.displayAvatarURL());
       db.delete(`leavechannelmessage_${message.guild.id}`);
